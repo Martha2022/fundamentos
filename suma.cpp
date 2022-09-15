@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-flat A,B,C;
+float A,B,C;
 cin>>A>>B;
 C=A+B;
 cout<<C;
