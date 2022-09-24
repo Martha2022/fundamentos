@@ -5,21 +5,21 @@
 using namespace std;
 int main()
 {
-	float x,y,s,m,d,r;
+	float MPLA_x,MPLA_y,MPLA_s,MPLA_m,MPLA_d,MPLA_r;
 	//Ingreso de datos
-	cout<<"Ingrese en valor de x=:";
-	cin>>x;
-	cout<<"Ingrese en valor de y=:";
+	cout<<"Ingrese en valor de MPLA_x=:";
+	cin>>MPLA_x;
+	cout<<"Ingrese en valor de MPLA_y=:";
 	//Operaciones 
-	cin>>y;
-	s=x+y;
-	m=x*y;
-	d=x/y;
-	r=x-y;
+	cin>>MPLA_y;
+	MPLA_s=MPLA_x+MPLA_y;
+	MPLA_m=MPLA_x*MPLA_y;
+	MPLA_d=MPLA_x/MPLA_y;
+	MPLA_r=MPLA_x-MPLA_y;
 	//Muestra los resutaldos.
-	cout<<"Las suma de "<<x<<" + "<<y<<" = "<<s<<endl;
-	cout<<"Las multiplicacion de "<<x<<" * "<<y<<" = "<<m<<endl;
-	cout<<"Las division de "<<x<<" / "<<y<<" = "<<d<<endl;
-	cout<<"Las resta de "<<x<<" - "<<y<<" = "<<r<<endl;
+	cout<<"Las suma de "<<MPLA_x<<" + "<<MPLA_y<<" = "<<MPLA_s<<endl;
+	cout<<"Las multiplicacion de "<<MPLA_x<<" * "<<MPLA_y<<" = "<<MPLA_m<<endl;
+	cout<<"Las division de "<<MPLA_x<<" / "<<MPLA_y<<" = "<<MPLA_d<<endl;
+	cout<<"Las resta de "<<MPLA_x<<" - "<<MPLA_y<<" = "<<MPLA_r<<endl;
 	return 0;
 }
