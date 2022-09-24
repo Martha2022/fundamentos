@@ -3,17 +3,20 @@
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float MPLA_a,MPLA_b;
+	cout<<"ingrese MPLA_a MPLA_b:"; cin>>MPLA_a>>MPLA_b;
+	if(MPLA_a>MPLA_b)
 	{
-	cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<MPLA_a<<" es mayor a "<<MPLA_b<<endl;
 
 
 	}else{
 
-	  cout<<b<<" es mayor a "<<a<<endl;
+	  cout<<MPLA_b<<" es mayor a "<<MPLA_a<<endl;
+
+
 	}
 
 	return 0;
 }
+
